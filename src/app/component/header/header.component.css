@@ -1,0 +1,19 @@
+.bg-primary{
+    margin: 0%;
+    padding: 0%;
+}
+
+.form-control{
+    margin-top: 4px;
+    width: 600px;
+    margin-left: 24px;
+    border-radius: 47px;
+}
+.search-icon{
+    position: absolute;
+    z-index: 10;
+    right: 36%;
+    top: 17px;
+    color: blue;
+    font-size: large;
+}

@@ -1,0 +1,18 @@
+<header>
+  <div  class="navbar bg-primary shadow-sm">
+    <div style="font-size: 40px; color: white;" class="navbar-brand  align-item-center d-flex ">
+      <i class="fas fa-shipping-fast"> &nbsp; </i>
+      <strong style="font-size: 30px">ApnaKart</strong>
+      <div class="form-group">
+        <input [(ngModel)]="searchTerm" (keyup)="search($event)" type="text" class="form-control" placeholder="Search products" />
+      </div>
+      <span class="fas fa-search search-icon"></span>
+    </div>
+    <button routerLink="cart" class="btn btn-primary">
+        <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+        <div class="badge bg-danger">{{totalItem}}</div>
+    </button>
+    
+  </div>
+</header>
+
